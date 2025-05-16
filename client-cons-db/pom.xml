@@ -12,10 +12,10 @@
     </parent>
         
     <groupId>insa.uphf.fr</groupId>
-    <artifactId>shellClient</artifactId>
+    <artifactId>clientConsDB</artifactId>
     <version>0.0.1</version>
-    <name>shellClient</name>
-    <description>Shell pour Kafka</description>
+    <name>clientConsDB</name>
+    <description>Gère la liaison entre Kafka et PostgreSQL</description>
 
     <properties>
         <java.version>21</java.version>

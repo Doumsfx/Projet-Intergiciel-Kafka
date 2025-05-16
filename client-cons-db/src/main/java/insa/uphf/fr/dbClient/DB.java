@@ -2,11 +2,15 @@ package insa.uphf.fr.dbClient;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 
 public class DB {
-    public static Connection connect() throws SQLException {
+
+    private static Connection connection;
+
+    public static void connect() throws SQLException {
 
         try {
             // Get database credentials from DatabaseConfig class
@@ -15,11 +19,110 @@ public class DB {
             var password = DatabaseConfig.getDbPassword();
 
             // Open a connection
-            return DriverManager.getConnection(jdbcUrl, user, password);
+            connection = DriverManager.getConnection(jdbcUrl, user, password);
 
         } catch (SQLException  e) {
+            connection = null;
             System.err.println(e.getMessage());
-            return null;
         }
     }
+
+
+    public static void insert_client(String client) throws SQLException {
+        try {
+            String sql = "INSERT INTO Client(nom, heure) VALUES (?, ?)";
+            PreparedStatement pstmt = connection.prepareStatement(sql);
+            // Client name
+            pstmt.setString(1, client);
+            // Timestamp
+            java.time.format.DateTimeFormatter formatter = java.time.format.DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+            String timestamp = java.time.LocalDateTime.now().format(formatter);
+            
+            pstmt.setString(2, timestamp);
+            // Insert
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            System.err.println(e.getMessage());
+        }
+        
+    }
+
+
+    public static void insert_log(String message) throws SQLException {
+        try {
+            String sql = "INSERT INTO Logs(contenu, heure) VALUES (?, ?)";
+            PreparedStatement pstmt = connection.prepareStatement(sql);
+            // Log message
+            pstmt.setString(1, message);
+            // Timestamp
+            java.time.format.DateTimeFormatter formatter = java.time.format.DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+            String timestamp = java.time.LocalDateTime.now().format(formatter);
+            pstmt.setString(2, timestamp);
+            // Insert
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            System.err.println(e.getMessage());
+        }
+        
+    }
+
+
+    public static void delete_client(String client) throws SQLException {
+        
+        try {
+            String sql = "DELETE FROM Client WHERE nom = ?";
+            PreparedStatement pstmt = connection.prepareStatement(sql);
+            // Client name
+            pstmt.setString(1, client);
+            // Delete
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            System.err.println(e.getMessage());
+        }
+        
+    }
+
+
+    public static boolean is_connected(String client) throws SQLException {
+        try {
+            String sql = "SELECT * FROM Client WHERE nom = ?";
+            PreparedStatement pstmt = connection.prepareStatement(sql);
+            // Client name
+            pstmt.setString(1, client);
+            // Execute query
+            var rs = pstmt.executeQuery();
+            return rs.next();
+        } catch (SQLException e) {
+            System.err.println(e.getMessage());
+        }
+        return false;
+    }
+
+    
+    public static String get_connected_clients() throws SQLException {
+        StringBuilder clients = new StringBuilder();
+        try {
+            String sql = "SELECT nom FROM Client";
+            PreparedStatement pstmt = connection.prepareStatement(sql);
+            // Execute query
+            var rs = pstmt.executeQuery();
+            while (rs.next()) {
+                clients.append(rs.getString("nom")).append("\n");
+            }
+        } catch (SQLException e) {
+            System.err.println(e.getMessage());
+        }
+        return clients.toString();
+    }
+
+    /**
+     * Close the database connection
+     */
+    public static void disconnect() throws SQLException {
+        if (connection != null) {
+            connection.close();
+        }
+    }
+
+
 }
