@@ -1,0 +1,23 @@
+Site du git:
+https://github.com/LibreTranslate/LibreTranslate/tree/main
+
+démarrer la vm de translation pour l'anglais vers français :
+./run.sh "--load-only en,fr"
+
+Ouvrer un browser vers : 
+http://localhost:5000
+
+Accéder à la documentation :
+http://localhost:5000/docs/
+
+Exemple d'appel :
+
+curl -X 'POST' \
+  'http://localhost:5000/translate' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -d 'q=Bonjour%20les%20gars%20de%20l'\''Insa%20ICY%2C%20comment%20trouvez%20vous%20cette%20application%20%3F&source=fr&target=en&format=text&alternatives=0&api_key=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
+  
+Arreter l'image docker:
+container_id=$(docker ps -a | grep libretranslate/libretranslate | awk '{print $1}')
+docker kill "$container_id"
