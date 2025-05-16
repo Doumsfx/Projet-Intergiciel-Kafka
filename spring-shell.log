@@ -41,3 +41,8 @@
 1747402506718:byebye
 1747402548334:message --dst ClientA --msg "coucou"
 1747402552066:byebye
+1747406923377:message --dst ClientA --msg "Hello, I'm gay !"
+1747407242126:byebye
+1747407266943:message --dst ClientA --msg "Hello, I'm gay !"
+1747407660776:clear
+1747407665222:byebye

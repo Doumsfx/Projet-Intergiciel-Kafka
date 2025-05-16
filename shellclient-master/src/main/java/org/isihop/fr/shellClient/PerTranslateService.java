@@ -1,14 +1,21 @@
 package org.isihop.fr.shellClient;
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 
 @Service
 public class PerTranslateService {
 
     private final KafkaTemplate<String, String> kafkaTemplate;
+    private final RestTemplate restTemplate = new RestTemplate();
+    private String apiUrl = "http://localhost:5000";
 
     @Value("${application.topicin}")
     private String TOPICIN;
@@ -19,18 +26,13 @@ public class PerTranslateService {
     }
 
     @KafkaListener(topics = "${application.topicout}")
-    public void listenAndTranslate(String message) {
-        String translated = translate(message);
-        kafkaTemplate.send(TOPICIN, translated);
-    }
-
-    @KafkaListener(topics = "${application.topicout}")
     public void consume(String message) {
         String from = extract_FROM(message);
         String to = extract_TO(message);
         String msg = extract_MSG(message);
 
-        String translated = translate(msg);
+        String sourceLang = detectLang(msg);
+        String translated = translateInFrench(msg, sourceLang);
         kafkaTemplate.send(TOPICIN, "FROM:"+from+"#TO:"+to+"#"+translated);
     }
 
@@ -52,7 +54,36 @@ public class PerTranslateService {
         return segments[2];
     }
 
-    private String translate(String input) {
-        return new StringBuilder(input).reverse().toString();
+    private String detectLang(String message) {
+        DetectRequest request = new DetectRequest(message);
+        String detectUrl = apiUrl + "/detect";
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        
+        HttpEntity<DetectRequest> entity = new HttpEntity<>(request, headers);
+
+        ResponseEntity<DetectResponse> response = restTemplate.postForEntity(detectUrl, entity, DetectResponse.class);
+
+        DetectResponse body = response.getBody();
+
+        return body.getLanguage();
+    }
+
+    private String translateInFrench(String message, String sourceLang) {
+        TranslateRequest request = new TranslateRequest(message, sourceLang, "fr", 1);
+        String translateUrl = apiUrl + "/translate";
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        
+        HttpEntity<TranslateRequest> entity = new HttpEntity<>(request, headers);
+
+        ResponseEntity<TranslateResponse> response = restTemplate.postForEntity(translateUrl, entity, TranslateResponse.class);
+
+        TranslateResponse body = response.getBody();
+
+        return body.getTranslatedText();
+
     }
 }
