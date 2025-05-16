@@ -5,10 +5,10 @@ package org.isihop.fr.shellClient;
  * @author tondeur-h
  */
 
-import org.springframework.stereotype.Component;
 import org.jline.utils.AttributedString;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.shell.jline.PromptProvider;
+import org.springframework.stereotype.Component;
 
 @Component
 public class CustomPrompt implements PromptProvider {
