@@ -897,3 +897,34 @@ Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bound
 2025-05-20 09:33:01,306 Attente Kafka, 60 secondes.
 2025-05-20 09:34:05,581 Fermeture du client ClientB
 2025-05-20 09:34:09,461 Fermeture du client ClientA
+2025-05-20 09:59:03,765 Enregistrement du client
+2025-05-20 09:59:03,769 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 09:59:03,784 Attente Kafka, 60 secondes.
+2025-05-20 09:59:03,927 Enregistrement du client
+2025-05-20 09:59:03,930 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 09:59:03,941 Attente Kafka, 60 secondes.
+2025-05-20 09:59:05,005 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 09:59:05,010 Attente Kafka, 60 secondes.
+2025-05-20 09:59:05,144 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 09:59:05,165 Attente Kafka, 60 secondes.
+2025-05-20 09:59:06,049 #### -> ClientB: Reception du message Technique de ClientConsDB -> ClientB
+2025-05-20 09:59:06,052 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB, ClientA
+2025-05-20 10:00:12,172 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB, ClientA
+2025-05-20 10:00:23,054 #### -> ClientB: Reception du message Technique de ClientConsDB -> ClientB, ClientA
+2025-05-20 10:01:00,249 Fermeture du client ClientB
+2025-05-20 10:01:02,367 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 10:01:07,094 Fermeture du client ClientA
+2025-05-20 10:04:56,862 Enregistrement du client
+2025-05-20 10:04:56,863 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 10:04:56,863 Attente Kafka, 60 secondes.
+2025-05-20 10:04:57,867 Enregistrement du client
+2025-05-20 10:04:57,870 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 10:04:57,870 Attente Kafka, 60 secondes.
+2025-05-20 10:04:58,238 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 10:04:58,240 Attente Kafka, 60 secondes.
+2025-05-20 10:04:58,968 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 10:04:59,109 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 10:04:59,118 Attente Kafka, 60 secondes.
+2025-05-20 10:05:09,897 #### -> ClientB: Reception du message Technique de ClientConsDB -> ClientA, ClientB
+2025-05-20 10:05:17,708 Fermeture du client ClientB
+2025-05-20 10:05:20,599 Fermeture du client ClientA
