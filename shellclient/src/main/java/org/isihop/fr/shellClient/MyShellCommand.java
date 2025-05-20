@@ -133,10 +133,9 @@ private static final Logger logger = LoggerFactory.getLogger(MyShellCommand.clas
     //@KafkaListener(topics = "${application.topicin}",groupId ="#{__listener.groupid}")
     //@KafkaListener(topics="#{__listener.TOPICIN}")
     public void consume(String message) {
-        logger.error(String.format("#### -> De la part de %s : Message -> %s",extract_FROM(message), extract_MSG(message)));
         if (extract_TO(message).compareToIgnoreCase(MONNOM.trim())==0) //si c'est bien pour moi !
         {
-            //logger.error(String.format("#### -> De la part de %s : Message -> %s",extract_FROM(message), extract_MSG(message)));
+            logger.error(String.format("#### -> De la part de %s : Message -> %s",extract_FROM(message), extract_MSG(message)));
         }
     }
     
