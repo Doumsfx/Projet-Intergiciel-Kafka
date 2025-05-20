@@ -1,5 +1,7 @@
 package insa.uphf.fr.dbClient;
 
+import java.sql.SQLException;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.annotation.KafkaListener;
@@ -23,8 +25,6 @@ public class ClientConsDB {
     @Value("${application.topictechout}")
     private String TOPICTECHOUT;
 
-    
-
     @Autowired
     public ClientConsDB(KafkaTemplate<String, String> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
@@ -36,7 +36,12 @@ public class ClientConsDB {
     *******************/
     @KafkaListener(topics = "${application.topicout}")
     public void consume(String message) {
-        // TODO Sauvegarder le message dans la base de données
+        // Sauvegarder le message dans la base de données
+        try {
+            DB.insert_log(message);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         
 
     }
@@ -50,6 +55,7 @@ public class ClientConsDB {
         
         String [] segments=message.split(":");
         String commande = segments[0].trim();
+        String client;
         
         // GET:ClientA
         // CONNECT:ClientA
@@ -58,20 +64,50 @@ public class ClientConsDB {
 
         switch (commande) {
             case "GET":
-                // TODO Renvoyer la liste des clients connectés
+                // Renvoyer la liste des clients connectés
+                client = segments[1].trim();
+                try {
+                    String clientsConnectes = DB.get_connected_clients();
+                    this.kafkaTemplate.send(TOPICTECHIN, "#FROM:ClientConsDB#TO:" + client + "#" + clientsConnectes);
 
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
 
                 break;
             case "CONNECT":
-                // TODO Sauvegarder le client dans la base de données
+                // Sauvegarder le client dans la base de données
+                client = segments[1].trim();
+                try {
+                    DB.insert_client(client);
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
 
                 break;
             case "DISCONNECT":
-                // TODO Supprimer le client de la base de données
+                // Supprimer le client de la base de données
+                client = segments[1].trim();
+                try {
+                    DB.delete_client(client);
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
 
                 break;
             case "ISCONNECTED":
-                // TODO Vérifier si un client est connecté
+                // Vérifier si un client est connecté
+                String clients = segments[1].trim();
+                String [] clientsConnectes = clients.split("#");
+                try {
+                    if (DB.is_connected(clientsConnectes[1])) {
+                        this.kafkaTemplate.send(TOPICTECHIN, "#FROM:ClientConsDB#TO:" + clientsConnectes[0] + "#" + clientsConnectes[1] + " est connecté");
+                    } else {
+                        this.kafkaTemplate.send(TOPICTECHIN, "#FROM:ClientConsDB#TO:" + clientsConnectes[0] + "#" + clientsConnectes[1] + " n'est pas connecté");
+                    }
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
 
 
                 break;
@@ -92,8 +128,7 @@ public class ClientConsDB {
 
 
 
-
-
+    /*
     private String extract_TO(String message) 
     {
         String [] segments=message.split("#");
@@ -111,5 +146,6 @@ public class ClientConsDB {
         String [] segments=message.split("#");
         return segments[2];
     }
+    */
 
 }

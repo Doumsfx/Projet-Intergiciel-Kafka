@@ -113,7 +113,7 @@ public class DB {
             // Execute query
             var rs = pstmt.executeQuery();
             while (rs.next()) {
-                clients.append(rs.getString("nom")).append("\n");
+                clients.append(rs.getString("nom")).append(",");
             }
         } catch (SQLException e) {
             System.err.println(e.getMessage());
