@@ -1,4 +1,4 @@
-package org.isihop.fr.perTranslateClient;
+package insa.uphf.fr.perTranslateClient;
 
 import java.io.IOException;
 import java.net.URI;

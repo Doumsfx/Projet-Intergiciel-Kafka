@@ -981,3 +981,19 @@ Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bound
 2025-05-20 10:32:13,046 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB, ClientA
 2025-05-20 10:32:34,536 Fermeture du client ClientB
 2025-05-20 10:32:37,520 Fermeture du client ClientA
+2025-05-20 10:42:58,412 Enregistrement du client
+2025-05-20 10:42:58,415 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 10:42:58,417 Attente Kafka, 60 secondes.
+2025-05-20 10:42:59,637 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 10:42:59,638 Attente Kafka, 60 secondes.
+2025-05-20 10:45:28,949 Enregistrement du client
+2025-05-20 10:45:28,955 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 10:45:28,956 Attente Kafka, 60 secondes.
+2025-05-20 10:45:29,741 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 10:45:29,745 Attente Kafka, 60 secondes.
+2025-05-20 10:45:30,357 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 10:45:30,374 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 10:46:28,841 #### -> De la part de ClientA : Message -> bonjour frère
+2025-05-20 10:46:28,843 #### -> De la part de ClientA : Message -> bonjour frère
+2025-05-20 10:46:33,124 Fermeture du client ClientA
+2025-05-20 10:46:38,709 Fermeture du client ClientA

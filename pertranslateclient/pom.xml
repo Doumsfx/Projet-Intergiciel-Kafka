@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
         
-    <groupId>org.isihop.fr</groupId>
+    <groupId>insa.uphf.fr</groupId>
     <artifactId>perTranslateClient</artifactId>
     <version>0.0.1</version>
     <name>perTranslateClient</name>

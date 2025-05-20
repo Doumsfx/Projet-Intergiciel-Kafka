@@ -1,4 +1,4 @@
-package org.isihop.fr.perTranslateClient;
+package insa.uphf.fr.perTranslateClient;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

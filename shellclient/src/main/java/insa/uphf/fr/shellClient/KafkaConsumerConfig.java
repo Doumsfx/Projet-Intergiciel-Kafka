@@ -1,4 +1,4 @@
-package org.isihop.fr.perTranslateClient;
+package insa.uphf.fr.shellClient;
 
 /**
  *

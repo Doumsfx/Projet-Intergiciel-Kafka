@@ -1,4 +1,4 @@
-package org.isihop.fr.shellClient;
+package insa.uphf.fr.shellClient;
 
 /**
  *
