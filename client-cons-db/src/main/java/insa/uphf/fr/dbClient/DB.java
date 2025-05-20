@@ -4,7 +4,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
+import java.sql.Timestamp;
+import java.time.LocalDateTime;
 
 public class DB {
 
@@ -35,13 +36,12 @@ public class DB {
         try {
             String sql = "INSERT INTO Client(nom, heure) VALUES (?, ?)";
             PreparedStatement pstmt = connection.prepareStatement(sql);
-            // Client name
+            // Message
             pstmt.setString(1, client);
-            // Timestamp
-            java.time.format.DateTimeFormatter formatter = java.time.format.DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-            String timestamp = java.time.LocalDateTime.now().format(formatter);
             
-            pstmt.setString(2, timestamp);
+            // Timestamp
+            Timestamp timestamp = Timestamp.valueOf(LocalDateTime.now());
+            pstmt.setTimestamp(2, timestamp);
             // Insert
             pstmt.executeUpdate();
         } catch (SQLException e) {
@@ -49,25 +49,28 @@ public class DB {
         }
         
     }
+
+
 
 
     public static void insert_log(String message) throws SQLException {
         try {
             String sql = "INSERT INTO Logs(contenu, heure) VALUES (?, ?)";
             PreparedStatement pstmt = connection.prepareStatement(sql);
-            // Log message
+            
+            // Message
             pstmt.setString(1, message);
+            
             // Timestamp
-            java.time.format.DateTimeFormatter formatter = java.time.format.DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-            String timestamp = java.time.LocalDateTime.now().format(formatter);
-            pstmt.setString(2, timestamp);
-            // Insert
+            Timestamp timestamp = Timestamp.valueOf(LocalDateTime.now());
+            pstmt.setTimestamp(2, timestamp);
+            
             pstmt.executeUpdate();
         } catch (SQLException e) {
             System.err.println(e.getMessage());
         }
-        
     }
+
 
 
     public static void delete_client(String client) throws SQLException {
