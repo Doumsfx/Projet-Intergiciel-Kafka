@@ -10,7 +10,7 @@ public class DB {
 
     private static Connection connection;
 
-    public static void connect() throws SQLException {
+    public static Connection connect() throws SQLException {
 
         try {
             // Get database credentials from DatabaseConfig class
@@ -21,9 +21,12 @@ public class DB {
             // Open a connection
             connection = DriverManager.getConnection(jdbcUrl, user, password);
 
+            return connection;
+
         } catch (SQLException  e) {
             connection = null;
             System.err.println(e.getMessage());
+            return null;
         }
     }
 
