@@ -68,7 +68,7 @@ public class ClientConsDB {
                 client = segments[1].trim();
                 try {
                     String clientsConnectes = DB.get_connected_clients();
-                    this.kafkaTemplate.send(TOPICTECHIN, "#FROM:ClientConsDB#TO:" + client + "#" + clientsConnectes);
+                    this.kafkaTemplate.send(TOPICTECHIN, "FROM:ClientConsDB#TO:" + client + "#" + clientsConnectes);
 
                 } catch (SQLException e) {
                     e.printStackTrace();
@@ -101,9 +101,9 @@ public class ClientConsDB {
                 String [] clientsConnectes = clients.split("#");
                 try {
                     if (DB.is_connected(clientsConnectes[1])) {
-                        this.kafkaTemplate.send(TOPICTECHIN, "#FROM:ClientConsDB#TO:" + clientsConnectes[0] + "#" + clientsConnectes[1] + " est connecté");
+                        this.kafkaTemplate.send(TOPICTECHIN, "FROM:ClientConsDB#TO:" + clientsConnectes[0] + "#" + clientsConnectes[1] + " est connecté");
                     } else {
-                        this.kafkaTemplate.send(TOPICTECHIN, "#FROM:ClientConsDB#TO:" + clientsConnectes[0] + "#" + clientsConnectes[1] + " n'est pas connecté");
+                        this.kafkaTemplate.send(TOPICTECHIN, "FROM:ClientConsDB#TO:" + clientsConnectes[0] + "#" + clientsConnectes[1] + " n'est pas connecté");
                     }
                 } catch (SQLException e) {
                     e.printStackTrace();
@@ -118,34 +118,5 @@ public class ClientConsDB {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-    /*
-    private String extract_TO(String message) 
-    {
-        String [] segments=message.split("#");
-        return segments[1].substring(3);
-    }
-    
-    private String extract_FROM(String message) 
-    {
-        String [] segments=message.split("#");
-        return segments[0].substring(5);
-    }
-    
-    private String extract_MSG(String message) 
-    {
-        String [] segments=message.split("#");
-        return segments[2];
-    }
-    */
 
 }
