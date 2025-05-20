@@ -1,5 +1,6 @@
 package insa.uphf.fr.dbClient;
 
+import java.sql.Connection;
 import java.sql.SQLException;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Service;
 public class ClientConsDB {
 
     private final KafkaTemplate<String, String> kafkaTemplate;
+    private final Connection connection;
 
     @Value("${application.topicin}")
     private String TOPICIN;
@@ -26,10 +28,11 @@ public class ClientConsDB {
     private String TOPICTECHOUT;
 
     @Autowired
-    public ClientConsDB(KafkaTemplate<String, String> kafkaTemplate) {
+    public ClientConsDB(KafkaTemplate<String, String> kafkaTemplate, Connection connection) {
         this.kafkaTemplate = kafkaTemplate;
+        this.connection = connection;
+        System.out.println("ClientConsDB initialized with connection: " + connection);
     }
-
 
     /****************** 
     Listener Kafka pour le topic OUT (messages envoyés par les clients)
@@ -42,10 +45,7 @@ public class ClientConsDB {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        
-
     }
-
 
     /****************** 
     Listener Kafka pour le topic IN (messages envoyés par le service de traduction)
@@ -58,10 +58,7 @@ public class ClientConsDB {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        
-
     }
-
 
     /****************** 
     Listener Kafka pour le TECH
@@ -89,7 +86,6 @@ public class ClientConsDB {
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
-
                 break;
             case "CONNECT":
                 // Sauvegarder le client dans la base de données
@@ -99,7 +95,6 @@ public class ClientConsDB {
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
-
                 break;
             case "DISCONNECT":
                 // Supprimer le client de la base de données
@@ -109,7 +104,6 @@ public class ClientConsDB {
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
-
                 break;
             case "ISCONNECTED":
                 // Vérifier si un client est connecté
@@ -124,15 +118,9 @@ public class ClientConsDB {
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
-
-
                 break;
             default:
                 break;
         }
-
     }
-
-
-
 }

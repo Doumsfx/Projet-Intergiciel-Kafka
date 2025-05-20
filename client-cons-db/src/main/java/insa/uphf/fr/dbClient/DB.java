@@ -7,12 +7,15 @@ import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class DB {
 
     private static Connection connection;
 
     public static Connection connect() throws SQLException {
-
         try {
             // Get database credentials from DatabaseConfig class
             var jdbcUrl = DatabaseConfig.getDbUrl();
@@ -27,10 +30,9 @@ public class DB {
         } catch (SQLException  e) {
             connection = null;
             System.err.println(e.getMessage());
-            return null;
+            throw e;
         }
     }
-
 
     public static void insert_client(String client) throws SQLException {
         try {
@@ -46,12 +48,9 @@ public class DB {
             pstmt.executeUpdate();
         } catch (SQLException e) {
             System.err.println(e.getMessage());
+            throw e;
         }
-        
     }
-
-
-
 
     public static void insert_log(String message) throws SQLException {
         try {
@@ -68,13 +67,11 @@ public class DB {
             pstmt.executeUpdate();
         } catch (SQLException e) {
             System.err.println(e.getMessage());
+            throw e;
         }
     }
 
-
-
     public static void delete_client(String client) throws SQLException {
-        
         try {
             String sql = "DELETE FROM Client WHERE nom = ?";
             PreparedStatement pstmt = connection.prepareStatement(sql);
@@ -84,10 +81,9 @@ public class DB {
             pstmt.executeUpdate();
         } catch (SQLException e) {
             System.err.println(e.getMessage());
+            throw e;
         }
-        
     }
-
 
     public static boolean is_connected(String client) throws SQLException {
         try {
@@ -100,10 +96,9 @@ public class DB {
             return rs.next();
         } catch (SQLException e) {
             System.err.println(e.getMessage());
+            throw e;
         }
-        return false;
     }
-
     
     public static String get_connected_clients() throws SQLException {
         StringBuilder clients = new StringBuilder();
@@ -115,20 +110,23 @@ public class DB {
             while (rs.next()) {
                 clients.append(rs.getString("nom")).append(", ");
             }
+            
+            if (clients.length() > 2) {
+                return clients.toString().substring(0, clients.length() - 2);
+            }
+            return "";
         } catch (SQLException e) {
             System.err.println(e.getMessage());
+            throw e;
         }
-        return clients.toString().substring(0, clients.length() - 2);
     }
 
     /**
      * Close the database connection
      */
     public static void disconnect() throws SQLException {
-        if (connection != null) {
+        if (connection != null && !connection.isClosed()) {
             connection.close();
         }
     }
-
-
 }
