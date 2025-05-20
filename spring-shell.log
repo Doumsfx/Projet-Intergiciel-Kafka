@@ -41,3 +41,13 @@
 1747402506718:byebye
 1747402548334:message --dst ClientA --msg "coucou"
 1747402552066:byebye
+1747725718362:message --dst ClientA --msg "coucou"
+1747726010252:message --dst ClientA --msg "coucoucou"
+1747726057616:message --dst ClientA --msg "coucou"
+1747727609355:message --dst ClientA --msg "hello"
+1747727762220:ccc
+1747728400140:message --dst ClientA --msg "coucou"
+1747728405616:message --dst ClientA --msg "hello"
+1747728420417:message --dst ClientA --msg "adam is a nab"
+1747728441353:message --dst ClientA --msg "simon is a drama queen"
+1747728452971:byebye
