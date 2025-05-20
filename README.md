@@ -1,6 +1,8 @@
 # Projet-Intergiciel-Kafka
 Simon DUMOULIN - ???????? - simon.dumoulin1@uphf.fr
+
 Alexis PAGNON - 22103274 - alexis.pagnon@uphf.fr
+
 Adam SANCHEZ - 22104850 - adam.sanchez@uphf.fr
 
 ### Description du projet:
