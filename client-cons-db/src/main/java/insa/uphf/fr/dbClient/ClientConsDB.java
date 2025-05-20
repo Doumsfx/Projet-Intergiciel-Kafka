@@ -32,10 +32,26 @@ public class ClientConsDB {
 
 
     /****************** 
-    Listener Kafka
+    Listener Kafka pour le topic OUT (messages envoyés par les clients)
     *******************/
     @KafkaListener(topics = "${application.topicout}")
-    public void consume(String message) {
+    public void consumeOut(String message) {
+        // Sauvegarder le message dans la base de données
+        try {
+            DB.insert_log(message);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        
+
+    }
+
+
+    /****************** 
+    Listener Kafka pour le topic IN (messages envoyés par le service de traduction)
+    *******************/
+    @KafkaListener(topics = "${application.topicin}")
+    public void consumeIn(String message) {
         // Sauvegarder le message dans la base de données
         try {
             DB.insert_log(message);
