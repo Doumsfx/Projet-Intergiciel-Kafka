@@ -14,7 +14,7 @@ Pour le lancement, nous avons implémenté 2 manières de faire:
   1) Lancer les fichiers de 1 à 3 dans un terminal
   2) Attendre que les 3 premiers soient lancés, puis lancer le 4 et le 5 dans un nouveau terminal chacun
   3) Attendre que le 4 et 5 soient lancés, puis lancer le 6 et le 7 dans un nouveau terminal chacun
-- La seconde consiste à simplement lancer le fichier nommé 'runEverything' qui va venir tout lancer d'un coup. Cependant, ce fichier peut poser un problème, car pour le fonctionnement de l'attente entre les 5 premiers lancements et les 2 derniers, nous avons mis un sleep de 15 secondes, donc si jamais votre machine est trop lente il faudra augmenter ce chiffre, sinon vous aurez des problèmes lors du lancement.
+- La seconde consiste à simplement lancer le fichier nommé 'runEverything.sh' qui va venir tout lancer d'un coup. Cependant, ce fichier peut poser un problème, car pour le fonctionnement de l'attente entre les 5 premiers lancements et les 2 derniers, nous avons mis un sleep de 15 secondes, donc si jamais votre machine est trop lente il faudra augmenter ce chiffre, sinon vous aurez des problèmes lors du lancement.
 
 ### Améliorations apportées au projet:
 - Comme expliqué au-dessus, nous avons mis en place un fichier nous permettant de lancer tout le projet d'un coup
