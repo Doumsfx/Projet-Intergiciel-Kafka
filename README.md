@@ -19,3 +19,7 @@ Pour le lancement, nous avons implémenté 2 manières de faire:
 ### Améliorations apportées au projet:
 - Comme expliqué au-dessus, nous avons mis en place un fichier nous permettant de lancer tout le projet d'un coup
 - Notre système de traduction ne détecte pas seulement l'anglais, il peut traduire plus de langues (pour cela, il suffit juste de modifier le fichier numéro 3 et d'enlever le paramètre '--load-only en,fr' qui limite les langues au français et à l'anglais)
+
+### Schéma de l'architecture implémentée :
+
+![](Schema.png)
