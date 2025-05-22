@@ -6,6 +6,9 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
+/**
+ * Client Kafka "PerTranslateService" (Producer et Consumer) qui écoute les messages sur le topic OUT (réception de messages non traduits) et écrit sur le topic IN (envoie de messages traduits)
+ */
 @Service
 public class PerTranslateService {
     private final KafkaTemplate<String, String> kafkaTemplate;
@@ -20,6 +23,9 @@ public class PerTranslateService {
         this.translateClient = translateClient;
     }
     
+    /****************** 
+    Listener Kafka pour le topic OUT (messages non traduits envoyés par les clients)
+    *******************/
     @KafkaListener(topics = "${application.topicout}")
     public void consume(String message) {
         try {

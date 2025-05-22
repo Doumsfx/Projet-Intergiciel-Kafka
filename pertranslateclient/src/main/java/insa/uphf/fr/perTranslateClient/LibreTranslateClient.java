@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 /**
- * Client simplifié pour l'API LibreTranslate
+ * Client de l'API LibreTranslate dans lequel on définit la fonction de traduction
  */
 @Component
 public class LibreTranslateClient {
@@ -27,12 +27,6 @@ public class LibreTranslateClient {
                 .build();
     }
     
-    /**
-     * Détecte la langue source et traduit le texte en français
-     * 
-     * @param text Texte à traduire
-     * @return Le texte traduit en français
-     */
     public String translateToFrench(String text) {
         try {
             // 1. Détection de la langue source
@@ -51,9 +45,6 @@ public class LibreTranslateClient {
         }
     }
     
-    /**
-     * Détecte la langue d'un texte
-     */
     private String detectLanguage(String text) throws IOException, InterruptedException {
         JSONObject requestBody = new JSONObject();
         requestBody.put("q", text);
@@ -79,9 +70,6 @@ public class LibreTranslateClient {
         return "en";
     }
     
-    /**
-     * Traduit un texte d'une langue à une autre
-     */
     private String translate(String text, String source, String target) throws IOException, InterruptedException {
         JSONObject requestBody = new JSONObject();
         requestBody.put("q", text);

@@ -5,8 +5,12 @@ import java.sql.SQLException;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
 import jakarta.annotation.PreDestroy;
 
+/**
+ * Gestion de la connexion/déconnexion à la BDD
+ */
 @Configuration
 public class DatabaseConnexion {
 

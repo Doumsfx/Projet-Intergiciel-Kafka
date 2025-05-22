@@ -9,6 +9,10 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
+/**
+ * Client Kafka "ConsDB" (Producteur et Consommateur) qui écoute les messages sur les topic OUT (réception de messages non traduits), IN (réception de messages traduits) et TECHOUT (réception de requêtes techniques),
+ * et qui écrit sur le topic TECHIN (envoie de réponses techniques).
+ */
 @Service
 public class ClientConsDB {
 
@@ -35,7 +39,7 @@ public class ClientConsDB {
     }
 
     /****************** 
-    Listener Kafka pour le topic OUT (messages envoyés par les clients)
+    Listener Kafka pour le topic OUT (messages non traduits envoyés par les clients)
     *******************/
     @KafkaListener(topics = "${application.topicout}")
     public void consumeOut(String message) {
@@ -48,7 +52,7 @@ public class ClientConsDB {
     }
 
     /****************** 
-    Listener Kafka pour le topic IN (messages envoyés par le service de traduction)
+    Listener Kafka pour le topic IN (messages traduits envoyés par le service de traduction)
     *******************/
     @KafkaListener(topics = "${application.topicin}")
     public void consumeIn(String message) {
@@ -61,7 +65,7 @@ public class ClientConsDB {
     }
 
     /****************** 
-    Listener Kafka pour le TECH
+    Listener Kafka pour le topic TECHOUT (requêtes techniques envoyées par les clients)
     *******************/
     @KafkaListener(topics = "${application.topictechout}")
     public void consumeTech(String message) {

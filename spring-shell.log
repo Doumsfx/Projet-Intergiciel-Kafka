@@ -1,0 +1,7 @@
+1747896235388:message --dst ClientB --msg "Hi, how are you?"
+1747896269068:message --dst ClientA --msg "Fine, thank you"
+1747896289914:message --dst ClientB --msg "Hi, comment ça va?"
+1747896311241:lister-clients
+1747896313934:byebye
+1747896318439:lister-clients
+1747896320727:byebye

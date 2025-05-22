@@ -12,38 +12,41 @@ import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 import org.springframework.shell.standard.ShellOption;
 
-
+/**
+ * Client Kafka "Shell" (Producteur et Consommateur) qui écrit sur les topics OUT (envoie de messages non traduits) et TECHOUT (envoie de requêtes techniques),
+ * et qui écoute sur les topics IN (réception de messages traduits) et TECHIN (réception de réponses techniques)
+ */
 @ShellComponent(value = "Mes commandes de messagerie")
 public class MyShellCommand {
 
 
-//cette ligne ici pour demo qu'il est possible de mettre en place 
-// une value dynamique.
-//@Value("${application.topicin}")
-//private String TOPICIN;
-    
-//spring.kafka.consumer.group-id
-@Value("${spring.kafka.consumer.group-id}")
-private String groupid;
-    
-//instanciation du service Kafka
-@Autowired
-private KafkaTemplate<String, String> kafkaTemplate;
+    //cette ligne ici pour demo qu'il est possible de mettre en place 
+    // une value dynamique.
+    //@Value("${application.topicin}")
+    //private String TOPICIN;
+        
+    //spring.kafka.consumer.group-id
+    @Value("${spring.kafka.consumer.group-id}")
+    private String groupid;
+        
+    //instanciation du service Kafka
+    @Autowired
+    private KafkaTemplate<String, String> kafkaTemplate;
 
-@Value("${application.topicout}")
-private String TOPICOUT;  //ecriture par le client
+    @Value("${application.topicout}")
+    private String TOPICOUT;  //ecriture par le client
 
-@Value("${application.topictechout}")
-private String TOPICTECHOUT; //ecriture tech par le client
+    @Value("${application.topictechout}")
+    private String TOPICTECHOUT; //ecriture tech par le client
 
-@Value("${application.monnom}")
-private String MONNOM;
+    @Value("${application.monnom}")
+    private String MONNOM;
 
-@Value("${spring.kafka.producer.bootstrap-servers}")
-private String connection;
+    @Value("${spring.kafka.producer.bootstrap-servers}")
+    private String connection;
 
-//login & sout
-private static final Logger logger = LoggerFactory.getLogger(MyShellCommand.class);
+    //login & sout
+    private static final Logger logger = LoggerFactory.getLogger(MyShellCommand.class);
 
     public MyShellCommand() {
         //int ale=(int)(Math.random()*99998)+1;

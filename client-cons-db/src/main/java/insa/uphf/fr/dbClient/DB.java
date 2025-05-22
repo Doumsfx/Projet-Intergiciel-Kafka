@@ -7,9 +7,11 @@ import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+/*
+ * Fonctions d'appel à la base de données (connexion, déconnexion et requêtes)
+ */
 @Component
 public class DB {
 
@@ -17,12 +19,12 @@ public class DB {
 
     public static Connection connect() throws SQLException {
         try {
-            // Get database credentials from DatabaseConfig class
+            // Récupération des identifiants de la base de données
             var jdbcUrl = DatabaseConfig.getDbUrl();
             var user = DatabaseConfig.getDbUsername();
             var password = DatabaseConfig.getDbPassword();
 
-            // Open a connection
+            // Ouverture de la connexion
             connection = DriverManager.getConnection(jdbcUrl, user, password);
 
             return connection;
@@ -75,9 +77,9 @@ public class DB {
         try {
             String sql = "DELETE FROM Client WHERE nom = ?";
             PreparedStatement pstmt = connection.prepareStatement(sql);
-            // Client name
+            // Nom du client
             pstmt.setString(1, client);
-            // Delete
+            // Exécution de la requête
             pstmt.executeUpdate();
         } catch (SQLException e) {
             System.err.println(e.getMessage());
@@ -89,9 +91,9 @@ public class DB {
         try {
             String sql = "SELECT * FROM Client WHERE nom = ?";
             PreparedStatement pstmt = connection.prepareStatement(sql);
-            // Client name
+            // Nom du client
             pstmt.setString(1, client);
-            // Execute query
+            // Exécution de la requête
             var rs = pstmt.executeQuery();
             return rs.next();
         } catch (SQLException e) {
@@ -105,7 +107,7 @@ public class DB {
         try {
             String sql = "SELECT nom FROM Client";
             PreparedStatement pstmt = connection.prepareStatement(sql);
-            // Execute query
+            // Exécution de la requête
             var rs = pstmt.executeQuery();
             while (rs.next()) {
                 clients.append(rs.getString("nom")).append(", ");
@@ -121,11 +123,9 @@ public class DB {
         }
     }
 
-    /**
-     * Close the database connection
-     */
     public static void disconnect() throws SQLException {
         if (connection != null && !connection.isClosed()) {
+            // Fermeture de la connexion
             connection.close();
         }
     }
