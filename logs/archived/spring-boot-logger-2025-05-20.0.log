@@ -1,0 +1,1019 @@
+2025-05-20 03:21:58,908 #### -> De la part de ClientA : Message -> uocuoc
+2025-05-20 03:26:50,677 #### -> De la part de ClientA : Message -> uocuocuoc
+2025-05-20 03:27:20,009 #### -> De la part de ClientA : Message -> uocuocuoc
+2025-05-20 03:27:22,588 #### -> De la part de ClientA : Message -> uocuocuoc
+2025-05-20 03:27:24,326 #### -> De la part de ClientA : Message -> uocuocuoc
+2025-05-20 03:53:22,374 #### -> De la part de ClientA : Message -> coucou
+2025-05-20 03:53:31,672 #### -> De la part de ClientA : Message -> bonjour
+2025-05-20 04:06:40,765 #### -> De la part de ClientA : Message -> coucou
+2025-05-20 04:06:45,727 #### -> De la part de ClientA : Message -> bonjour
+2025-05-20 04:07:01,085 #### -> De la part de ClientA : Message -> adam est un nab
+2025-05-20 04:07:22,291 #### -> De la part de ClientA : Message -> simon est une reine dramatique
+2025-05-20 04:34:50,740 #### -> De la part de ClientA : Message -> simon est une reine dramatique
+2025-05-20 04:35:49,454 #### -> De la part de ClientA : Message -> Ce texte est déjà en français nab
+2025-05-20 04:36:10,075 #### -> De la part de ClientA : Message -> Simon est un gros noob
+2025-05-20 05:31:51,959 Application run failed
+org.springframework.shell.CommandNotFound: No command found for '--appplication.monnom=SimonLeNab'
+	at org.springframework.shell.Shell.evaluate(Shell.java:207)
+	at org.springframework.shell.Shell.run(Shell.java:159)
+	at org.springframework.shell.jline.NonInteractiveShellRunner.run(NonInteractiveShellRunner.java:144)
+	at org.springframework.shell.DefaultShellApplicationRunner.run(DefaultShellApplicationRunner.java:66)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$4(SpringApplication.java:784)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.isihop.fr.shellClient.ShellClientApplication.main(ShellClientApplication.java:15)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64)
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40)
+2025-05-20 05:38:48,423 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:38:48,433 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:38:48,713 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:38:48,718 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:43:22,566 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:43:22,573 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:44:28,345 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:44:28,375 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:46:01,339 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:46:01,367 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:46:33,108 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:46:33,142 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:54:21,113 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:54:34,606 #### -> De la part de ClientA : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:55:30,848 #### -> De la part de ClientB : Message -> Bonjour, vous êtes un noob2222 ?
+2025-05-20 05:56:05,766 #### -> De la part de ClientB : Message -> Bonjour, vous êtes un noob ?
+2025-05-20 05:57:38,179 #### -> De la part de ClientA : Message -> Alexis est bg
+2025-05-20 05:59:16,420 #### -> De la part de ClientA : Message -> Alexis est bg
+2025-05-20 08:13:44,101 #### -> De la part de ClientA : Message -> Alexis est bg
+2025-05-20 08:14:30,099 #### -> De la part de ClientB : Message -> essai
+2025-05-20 08:20:59,413 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB n'est pas connecté
+2025-05-20 08:21:16,659 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechin-0@1
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void org.isihop.fr.shellClient.MyShellCommand.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at org.isihop.fr.shellClient.MyShellCommand.extract_MSG(MyShellCommand.java:291)
+	at org.isihop.fr.shellClient.MyShellCommand.consumeTech(MyShellCommand.java:150)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 08:21:43,147 #### -> De la part de ClientA : Message -> Alexis est bg
+2025-05-20 08:21:50,270 #### -> De la part de ClientB : Message -> essai
+2025-05-20 08:22:05,024 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechin-0@2
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void org.isihop.fr.shellClient.MyShellCommand.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at org.isihop.fr.shellClient.MyShellCommand.extract_MSG(MyShellCommand.java:291)
+	at org.isihop.fr.shellClient.MyShellCommand.consumeTech(MyShellCommand.java:150)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 08:25:58,462 #### -> De la part de ClientB : Message -> essai
+2025-05-20 08:26:06,012 #### -> De la part de ClientA : Message -> Alexis est bg
+2025-05-20 08:26:39,307 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechin-0@3
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void org.isihop.fr.shellClient.MyShellCommand.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at org.isihop.fr.shellClient.MyShellCommand.extract_MSG(MyShellCommand.java:291)
+	at org.isihop.fr.shellClient.MyShellCommand.consumeTech(MyShellCommand.java:150)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 08:27:27,574 #### -> De la part de ClientB : Message -> ça va ?
+2025-05-20 08:27:40,864 #### -> Votre nom de login est : ClientB
+2025-05-20 08:27:40,864 Vous êtes connecté sur kafka vers : localhost:9092
+2025-05-20 08:27:46,228 #### -> Votre nom de login est : ClientA
+2025-05-20 08:27:46,229 Vous êtes connecté sur kafka vers : localhost:9092
+2025-05-20 08:36:16,426 Enregistrement du client
+2025-05-20 08:36:16,429 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 08:36:16,430 Attente Kafka, 60 secondes.
+2025-05-20 08:36:16,526 Enregistrement du client
+2025-05-20 08:36:16,528 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 08:36:16,531 Attente Kafka, 60 secondes.
+2025-05-20 08:36:17,594 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 08:36:17,599 Attente Kafka, 60 secondes.
+2025-05-20 08:36:17,684 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 08:36:17,688 Attente Kafka, 60 secondes.
+2025-05-20 08:36:30,023 #### -> De la part de ClientA : Message -> Alexis est bg
+2025-05-20 08:36:37,559 #### -> De la part de ClientB : Message -> essai
+2025-05-20 08:36:42,331 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB,ClientA,
+2025-05-20 08:37:42,642 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB est connecté
+2025-05-20 08:37:44,516 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientC n'est pas connecté
+2025-05-20 08:37:47,157 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA est connecté
+2025-05-20 08:37:50,288 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB est connecté
+2025-05-20 08:37:54,679 Fermeture du client ClientB
+2025-05-20 08:37:57,735 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB n'est pas connecté
+2025-05-20 08:38:05,277 Fermeture du client ClientA
+2025-05-20 08:41:22,499 Enregistrement du client
+2025-05-20 08:41:22,515 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 08:41:22,518 Attente Kafka, 60 secondes.
+2025-05-20 08:41:23,591 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 08:41:23,595 Attente Kafka, 60 secondes.
+2025-05-20 08:41:25,503 Enregistrement du client
+2025-05-20 08:41:25,587 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 08:41:25,588 Attente Kafka, 60 secondes.
+2025-05-20 08:41:26,380 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 08:41:26,388 Attente Kafka, 60 secondes.
+2025-05-20 08:41:44,617 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 08:41:44,647 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA,ClientB
+2025-05-20 08:41:44,656 #### -> ClientB: Reception du message Technique de ClientConsDB -> ClientA,ClientB
+2025-05-20 08:42:41,302 Fermeture du client ClientB
+2025-05-20 08:42:44,199 Fermeture du client ClientA
+2025-05-20 08:44:16,239 Enregistrement du client
+2025-05-20 08:44:16,241 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 08:44:16,241 Attente Kafka, 60 secondes.
+2025-05-20 08:44:16,448 Enregistrement du client
+2025-05-20 08:44:16,449 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 08:44:16,449 Attente Kafka, 60 secondes.
+2025-05-20 08:44:17,633 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 08:44:17,657 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 08:44:17,659 Attente Kafka, 60 secondes.
+2025-05-20 08:44:17,665 Attente Kafka, 60 secondes.
+2025-05-20 08:44:18,224 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB, ClientA
+2025-05-20 08:44:18,227 #### -> ClientB: Reception du message Technique de ClientConsDB -> ClientB, ClientA
+2025-05-20 08:44:20,744 Fermeture du client ClientB
+2025-05-20 08:44:24,195 Fermeture du client ClientA
+2025-05-20 08:46:25,434 Enregistrement du client
+2025-05-20 08:46:25,435 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 08:46:25,435 Attente Kafka, 60 secondes.
+2025-05-20 08:46:26,017 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 08:46:26,026 Attente Kafka, 60 secondes.
+2025-05-20 08:46:30,654 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechout-0@38
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void insa.uphf.fr.dbClient.ClientConsDB.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at insa.uphf.fr.dbClient.DB.get_connected_clients(DB.java:121)
+	at insa.uphf.fr.dbClient.ClientConsDB.consumeTech(ClientConsDB.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 08:50:48,258 Enregistrement du client
+2025-05-20 08:50:48,260 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 08:50:48,260 Attente Kafka, 60 secondes.
+2025-05-20 08:50:49,560 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 08:50:49,597 Attente Kafka, 60 secondes.
+2025-05-20 08:50:51,820 Enregistrement du client
+2025-05-20 08:50:51,822 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 08:50:51,823 Attente Kafka, 60 secondes.
+2025-05-20 08:50:52,266 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 08:50:52,266 Attente Kafka, 60 secondes.
+2025-05-20 08:50:53,900 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechout-0@40
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void insa.uphf.fr.dbClient.ClientConsDB.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at insa.uphf.fr.dbClient.DB.get_connected_clients(DB.java:121)
+	at insa.uphf.fr.dbClient.ClientConsDB.consumeTech(ClientConsDB.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 08:50:58,952 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechout-0@42
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void insa.uphf.fr.dbClient.ClientConsDB.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at insa.uphf.fr.dbClient.DB.get_connected_clients(DB.java:121)
+	at insa.uphf.fr.dbClient.ClientConsDB.consumeTech(ClientConsDB.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 08:51:03,292 Fermeture du client ClientB
+2025-05-20 08:51:06,048 Fermeture du client ClientA
+2025-05-20 08:53:43,682 Enregistrement du client
+2025-05-20 08:53:43,683 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 08:53:43,683 Attente Kafka, 60 secondes.
+2025-05-20 08:53:44,282 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 08:53:44,316 Attente Kafka, 60 secondes.
+2025-05-20 08:53:49,363 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechout-0@1
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void insa.uphf.fr.dbClient.ClientConsDB.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at insa.uphf.fr.dbClient.DB.get_connected_clients(DB.java:121)
+	at insa.uphf.fr.dbClient.ClientConsDB.consumeTech(ClientConsDB.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 08:53:49,712 Enregistrement du client
+2025-05-20 08:53:49,715 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 08:53:49,715 Attente Kafka, 60 secondes.
+2025-05-20 08:53:50,234 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 08:53:50,269 Attente Kafka, 60 secondes.
+2025-05-20 08:53:54,899 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechout-0@3
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void insa.uphf.fr.dbClient.ClientConsDB.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at insa.uphf.fr.dbClient.DB.get_connected_clients(DB.java:121)
+	at insa.uphf.fr.dbClient.ClientConsDB.consumeTech(ClientConsDB.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 08:55:27,172 Fermeture du client ClientB
+2025-05-20 08:55:30,021 Fermeture du client ClientA
+2025-05-20 08:55:48,534 Enregistrement du client
+2025-05-20 08:55:48,536 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 08:55:48,536 Attente Kafka, 60 secondes.
+2025-05-20 08:55:49,433 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 08:55:49,443 Attente Kafka, 60 secondes.
+2025-05-20 08:55:50,590 Enregistrement du client
+2025-05-20 08:55:50,591 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 08:55:50,591 Attente Kafka, 60 secondes.
+2025-05-20 08:55:51,157 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 08:55:51,161 Attente Kafka, 60 secondes.
+2025-05-20 08:56:19,766 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechout-0@7
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void insa.uphf.fr.dbClient.ClientConsDB.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at insa.uphf.fr.dbClient.DB.get_connected_clients(DB.java:121)
+	at insa.uphf.fr.dbClient.ClientConsDB.consumeTech(ClientConsDB.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 08:56:24,858 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechout-0@9
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void insa.uphf.fr.dbClient.ClientConsDB.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at insa.uphf.fr.dbClient.DB.get_connected_clients(DB.java:121)
+	at insa.uphf.fr.dbClient.ClientConsDB.consumeTech(ClientConsDB.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 08:56:30,100 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechout-0@10
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void insa.uphf.fr.dbClient.ClientConsDB.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at insa.uphf.fr.dbClient.DB.get_connected_clients(DB.java:121)
+	at insa.uphf.fr.dbClient.ClientConsDB.consumeTech(ClientConsDB.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 08:56:34,340 Fermeture du client ClientB
+2025-05-20 08:56:36,832 Fermeture du client ClientA
+2025-05-20 08:57:05,380 Enregistrement du client
+2025-05-20 08:57:05,383 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 08:57:05,383 Attente Kafka, 60 secondes.
+2025-05-20 08:57:06,205 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 08:57:06,212 Attente Kafka, 60 secondes.
+2025-05-20 08:57:19,965 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechout-0@14
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void insa.uphf.fr.dbClient.ClientConsDB.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at insa.uphf.fr.dbClient.DB.get_connected_clients(DB.java:121)
+	at insa.uphf.fr.dbClient.ClientConsDB.consumeTech(ClientConsDB.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 08:58:09,766 Fermeture du client ClientA
+2025-05-20 08:58:33,452 Enregistrement du client
+2025-05-20 08:58:33,454 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 08:58:33,454 Attente Kafka, 60 secondes.
+2025-05-20 08:58:34,594 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 08:58:34,601 Attente Kafka, 60 secondes.
+2025-05-20 08:58:39,551 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 08:58:48,112 Enregistrement du client
+2025-05-20 08:58:48,115 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 08:58:48,115 Attente Kafka, 60 secondes.
+2025-05-20 08:58:49,514 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 08:58:49,515 Attente Kafka, 60 secondes.
+2025-05-20 08:58:57,898 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA, ClientB
+2025-05-20 08:59:04,624 Fermeture du client ClientA
+2025-05-20 08:59:11,387 Fermeture du client ClientB
+2025-05-20 09:01:16,842 Enregistrement du client
+2025-05-20 09:01:16,843 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 09:01:16,844 Attente Kafka, 60 secondes.
+2025-05-20 09:01:17,599 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 09:01:17,600 Attente Kafka, 60 secondes.
+2025-05-20 09:01:22,453 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechout-0@24
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void insa.uphf.fr.dbClient.ClientConsDB.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at insa.uphf.fr.dbClient.DB.get_connected_clients(DB.java:121)
+	at insa.uphf.fr.dbClient.ClientConsDB.consumeTech(ClientConsDB.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 09:01:32,654 Fermeture du client ClientA
+2025-05-20 09:03:41,267 Enregistrement du client
+2025-05-20 09:03:41,269 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 09:03:41,271 Attente Kafka, 60 secondes.
+2025-05-20 09:03:41,968 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 09:03:41,969 Attente Kafka, 60 secondes.
+2025-05-20 09:03:42,535 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 09:03:50,064 Enregistrement du client
+2025-05-20 09:03:50,068 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 09:03:50,068 Attente Kafka, 60 secondes.
+2025-05-20 09:03:50,776 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 09:03:50,779 Attente Kafka, 60 secondes.
+2025-05-20 09:04:07,034 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA, ClientB
+2025-05-20 09:04:26,696 #### -> De la part de ClientA : Message -> Alexis est bg
+2025-05-20 09:04:30,377 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA, ClientB
+2025-05-20 09:04:38,089 Fermeture du client ClientB
+2025-05-20 09:04:40,688 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 09:04:46,377 Fermeture du client ClientA
+2025-05-20 09:20:23,377 Enregistrement du client
+2025-05-20 09:20:23,380 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 09:20:23,381 Attente Kafka, 60 secondes.
+2025-05-20 09:20:24,309 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 09:20:24,312 Attente Kafka, 60 secondes.
+2025-05-20 09:20:24,798 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 09:20:42,974 Enregistrement du client
+2025-05-20 09:20:42,984 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 09:20:42,985 Attente Kafka, 60 secondes.
+2025-05-20 09:20:43,555 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 09:20:43,556 Attente Kafka, 60 secondes.
+2025-05-20 09:21:09,988 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA, ClientB
+2025-05-20 09:21:12,441 Fermeture du client ClientA
+2025-05-20 09:21:15,167 Fermeture du client ClientB
+2025-05-20 09:21:25,695 Enregistrement du client
+2025-05-20 09:21:25,697 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 09:21:25,697 Attente Kafka, 60 secondes.
+2025-05-20 09:21:26,519 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 09:21:26,520 Attente Kafka, 60 secondes.
+2025-05-20 09:21:29,048 Enregistrement du client
+2025-05-20 09:21:29,050 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 09:21:29,050 Attente Kafka, 60 secondes.
+2025-05-20 09:21:29,533 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 09:21:29,534 Attente Kafka, 60 secondes.
+2025-05-20 09:21:37,225 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA, ClientB
+2025-05-20 09:21:39,941 Fermeture du client ClientA
+2025-05-20 09:21:42,662 Fermeture du client ClientB
+2025-05-20 09:25:37,248 Enregistrement du client
+2025-05-20 09:25:37,255 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 09:25:37,255 Attente Kafka, 60 secondes.
+2025-05-20 09:25:37,777 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 09:25:37,778 Attente Kafka, 60 secondes.
+2025-05-20 09:25:42,895 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechout-0@15
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void insa.uphf.fr.dbClient.ClientConsDB.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at insa.uphf.fr.dbClient.DB.get_connected_clients(DB.java:121)
+	at insa.uphf.fr.dbClient.ClientConsDB.consumeTech(ClientConsDB.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 09:28:29,669 Fermeture du client ClientA
+2025-05-20 09:29:06,591 Enregistrement du client
+2025-05-20 09:29:06,593 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 09:29:06,593 Attente Kafka, 60 secondes.
+2025-05-20 09:29:07,936 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 09:29:07,937 Attente Kafka, 60 secondes.
+2025-05-20 09:29:12,582 Fermeture du client ClientA
+2025-05-20 09:29:12,583 Backoff FixedBackOff{interval=0, currentAttempts=10, maxAttempts=9} exhausted for topictechout-0@18
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void insa.uphf.fr.dbClient.ClientConsDB.consumeTech(java.lang.String)' threw exception
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2994)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2901)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:489)
+		at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+		at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+		at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at insa.uphf.fr.dbClient.DB.get_connected_clients(DB.java:121)
+	at insa.uphf.fr.dbClient.ClientConsDB.consumeTech(ClientConsDB.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:474)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	... 10 common frames omitted
+2025-05-20 09:31:33,230 Enregistrement du client
+2025-05-20 09:31:33,236 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 09:31:33,237 Attente Kafka, 60 secondes.
+2025-05-20 09:31:33,772 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 09:31:33,776 Attente Kafka, 60 secondes.
+2025-05-20 09:31:34,371 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 09:31:41,929 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 09:32:13,656 Enregistrement du client
+2025-05-20 09:32:13,661 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 09:32:13,662 Attente Kafka, 60 secondes.
+2025-05-20 09:32:14,984 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 09:32:14,996 Attente Kafka, 60 secondes.
+2025-05-20 09:32:21,824 #### -> ClientB: Reception du message Technique de ClientConsDB -> ClientA, ClientB
+2025-05-20 09:32:54,553 Fermeture du client ClientB
+2025-05-20 09:33:00,750 Enregistrement du client
+2025-05-20 09:33:00,753 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 09:33:00,753 Attente Kafka, 60 secondes.
+2025-05-20 09:33:01,296 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 09:33:01,306 Attente Kafka, 60 secondes.
+2025-05-20 09:34:05,581 Fermeture du client ClientB
+2025-05-20 09:34:09,461 Fermeture du client ClientA
+2025-05-20 09:59:03,765 Enregistrement du client
+2025-05-20 09:59:03,769 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 09:59:03,784 Attente Kafka, 60 secondes.
+2025-05-20 09:59:03,927 Enregistrement du client
+2025-05-20 09:59:03,930 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 09:59:03,941 Attente Kafka, 60 secondes.
+2025-05-20 09:59:05,005 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 09:59:05,010 Attente Kafka, 60 secondes.
+2025-05-20 09:59:05,144 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 09:59:05,165 Attente Kafka, 60 secondes.
+2025-05-20 09:59:06,049 #### -> ClientB: Reception du message Technique de ClientConsDB -> ClientB
+2025-05-20 09:59:06,052 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB, ClientA
+2025-05-20 10:00:12,172 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB, ClientA
+2025-05-20 10:00:23,054 #### -> ClientB: Reception du message Technique de ClientConsDB -> ClientB, ClientA
+2025-05-20 10:01:00,249 Fermeture du client ClientB
+2025-05-20 10:01:02,367 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 10:01:07,094 Fermeture du client ClientA
+2025-05-20 10:04:56,862 Enregistrement du client
+2025-05-20 10:04:56,863 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 10:04:56,863 Attente Kafka, 60 secondes.
+2025-05-20 10:04:57,867 Enregistrement du client
+2025-05-20 10:04:57,870 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 10:04:57,870 Attente Kafka, 60 secondes.
+2025-05-20 10:04:58,238 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 10:04:58,240 Attente Kafka, 60 secondes.
+2025-05-20 10:04:58,968 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 10:04:59,109 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 10:04:59,118 Attente Kafka, 60 secondes.
+2025-05-20 10:05:09,897 #### -> ClientB: Reception du message Technique de ClientConsDB -> ClientA, ClientB
+2025-05-20 10:05:17,708 Fermeture du client ClientB
+2025-05-20 10:05:20,599 Fermeture du client ClientA
+2025-05-20 10:25:35,234 Enregistrement du client
+2025-05-20 10:25:35,238 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 10:25:35,239 Attente Kafka, 60 secondes.
+2025-05-20 10:25:35,341 Enregistrement du client
+2025-05-20 10:25:35,370 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 10:25:35,386 Attente Kafka, 60 secondes.
+2025-05-20 10:25:37,262 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 10:25:37,273 Attente Kafka, 60 secondes.
+2025-05-20 10:25:37,290 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 10:25:37,334 Attente Kafka, 60 secondes.
+2025-05-20 10:25:38,048 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 10:25:38,068 #### -> ClientB: Reception du message Technique de ClientConsDB -> ClientA, ClientB
+2025-05-20 10:25:55,169 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA, ClientB
+2025-05-20 10:25:58,550 #### -> ClientB: Reception du message Technique de ClientConsDB -> ClientA, ClientB
+2025-05-20 10:26:46,229 #### -> De la part de ClientA : Message -> Bonjour, je suis gay !
+2025-05-20 10:27:08,652 #### -> De la part de ClientB : Message -> Bonjour, je suis gay !
+2025-05-20 10:27:14,956 #### -> De la part de ClientB : Message -> Bonjour, je suis gay !
+2025-05-20 10:27:23,267 #### -> Votre nom de login est : ClientB
+2025-05-20 10:27:23,268 Vous êtes connecté sur kafka vers : localhost:9092
+2025-05-20 10:27:27,376 #### -> Votre nom de login est : ClientA
+2025-05-20 10:27:27,377 Vous êtes connecté sur kafka vers : localhost:9092
+2025-05-20 10:27:37,103 #### -> De la part de ClientA : Message -> Bonjour
+2025-05-20 10:30:19,163 ===============Environnement===============
+2025-05-20 10:30:19,170 SHLVL = 2
+2025-05-20 10:30:19,170 SHELL = /bin/bash
+2025-05-20 10:30:19,170 GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/bbbe5347_9f55_4738_9db8_9029cdaed8d1
+2025-05-20 10:30:19,171 MAIL = /var/mail/root
+2025-05-20 10:30:19,171 COLORTERM = truecolor
+2025-05-20 10:30:19,171 DISPLAY = :0
+2025-05-20 10:30:19,171 HOME = /root
+2025-05-20 10:30:19,171 XDG_CURRENT_DESKTOP = X-Cinnamon
+2025-05-20 10:30:19,171 application_monnom = ClientA
+2025-05-20 10:30:19,171 PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+2025-05-20 10:30:19,171 SUDO_GID = 0
+2025-05-20 10:30:19,171 TERM = xterm-256color
+2025-05-20 10:30:19,171 LOGNAME = root
+2025-05-20 10:30:19,172 SUDO_UID = 0
+2025-05-20 10:30:19,172 LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+2025-05-20 10:30:19,172 GNOME_TERMINAL_SERVICE = :1.37
+2025-05-20 10:30:19,172 LANG = en_US.UTF-8
+2025-05-20 10:30:19,172 XAUTHORITY = /home/linuxmint/.Xauthority
+2025-05-20 10:30:19,172 LANGUAGE = en_US
+2025-05-20 10:30:19,172 SUDO_USER = root
+2025-05-20 10:30:19,173 SUDO_COMMAND = /usr/bin/gnome-terminal -- bash -c ./6-runShellClientA.sh; exec bash
+2025-05-20 10:30:19,173 USER = root
+2025-05-20 10:30:19,173 PWD = /home/linuxmint/Documents/Projet_Intergiciel/Projet-Intergiciel-Kafka-1
+2025-05-20 10:30:19,173 _ = /usr/bin/java
+2025-05-20 10:30:19,173 VTE_VERSION = 6800
+2025-05-20 10:30:19,173 ===============Environnement===============
+2025-05-20 10:31:35,205 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB, ClientA
+2025-05-20 10:32:13,046 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB, ClientA
+2025-05-20 10:32:34,536 Fermeture du client ClientB
+2025-05-20 10:32:37,520 Fermeture du client ClientA
+2025-05-20 10:42:58,412 Enregistrement du client
+2025-05-20 10:42:58,415 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 10:42:58,417 Attente Kafka, 60 secondes.
+2025-05-20 10:42:59,637 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 10:42:59,638 Attente Kafka, 60 secondes.
+2025-05-20 10:45:28,949 Enregistrement du client
+2025-05-20 10:45:28,955 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 10:45:28,956 Attente Kafka, 60 secondes.
+2025-05-20 10:45:29,741 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 10:45:29,745 Attente Kafka, 60 secondes.
+2025-05-20 10:45:30,357 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 10:45:30,374 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 10:46:28,841 #### -> De la part de ClientA : Message -> bonjour frère
+2025-05-20 10:46:28,843 #### -> De la part de ClientA : Message -> bonjour frère
+2025-05-20 10:46:33,124 Fermeture du client ClientA
+2025-05-20 10:46:38,709 Fermeture du client ClientA
+2025-05-20 10:51:01,501 Enregistrement du client
+2025-05-20 10:51:01,508 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-20 10:51:01,509 Attente Kafka, 60 secondes.
+2025-05-20 10:51:02,489 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-20 10:51:02,502 Attente Kafka, 60 secondes.
+2025-05-20 10:51:03,024 Enregistrement du client
+2025-05-20 10:51:03,025 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-20 10:51:03,025 Attente Kafka, 60 secondes.
+2025-05-20 10:51:03,126 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA
+2025-05-20 10:51:03,786 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-20 10:51:03,813 Attente Kafka, 60 secondes.
+2025-05-20 10:51:28,879 #### -> De la part de ClientA : Message -> bonjour frère
+2025-05-20 10:51:46,058 #### -> De la part de ClientB : Message -> bonjour frère
+2025-05-20 10:51:52,912 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA, ClientB
+2025-05-20 10:52:03,213 #### -> De la part de ClientA : Message -> Bonjour
+2025-05-20 10:52:21,469 #### -> De la part de ClientA : Message -> Bonjour les gars
+2025-05-20 10:52:26,340 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientA, ClientB
+2025-05-20 10:52:41,158 #### -> ClientA: Reception du message Technique de ClientConsDB -> ClientB, ClientA
+2025-05-20 10:52:45,264 Fermeture du client ClientA
+2025-05-20 10:52:47,878 Fermeture du client ClientB
